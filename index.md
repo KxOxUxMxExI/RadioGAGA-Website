@@ -18,7 +18,7 @@ title: RadioGAGA
 
 ## ページ
 
-- [プライバシーポリシー](privacy-policy.md)
-- [アップデート履歴](changelog.md)
+- [プライバシーポリシー](privacy-policy/)
+- [アップデート履歴](changelog/)
 
 Google Playでの公開準備中です。
