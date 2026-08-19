@@ -14,5 +14,13 @@ p, li { color: var(--gaga-muted); line-height: 1.9; }
 a { color: var(--gaga-blue); }
 .gaga-hero { padding: 2.8rem 2rem; margin-bottom: 2rem; border: 1px solid #2b4568; border-radius: 24px; background: linear-gradient(135deg, rgba(34, 64, 102, .9), rgba(18, 28, 46, .9)); box-shadow: 0 18px 50px rgba(0,0,0,.25); }
 .gaga-tag { color: var(--gaga-accent); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.gaga-card { padding: 1.2rem 1.4rem; margin: 1rem 0; border: 1px solid #2b3b55; border-radius: 16px; background: var(--gaga-card); }
+.gaga-button { display: inline-block; padding: .75rem 1.1rem; border-radius: 999px; background: var(--gaga-accent); color: #111a28 !important; font-weight: 700; text-decoration: none; }
+.gaga-card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.gaga-card { padding: 1.2rem 1.4rem; border: 1px solid #2b3b55; border-radius: 16px; background: var(--gaga-card); }
+.gaga-shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.gaga-shots figure { margin: 0; padding: .6rem; border: 1px solid #2b3b55; border-radius: 16px; background: var(--gaga-card); }
+.gaga-shots img { display: block; width: 100%; height: 360px; object-fit: cover; object-position: top; border-radius: 10px; }
+.gaga-shots figcaption { padding: .7rem .2rem .2rem; color: var(--gaga-muted); text-align: center; }
 .site-footer { background: #080e19; border-top: 1px solid #26344b; }
+@media (max-width: 700px) { .gaga-card-grid, .gaga-shots { grid-template-columns: repeat(2, 1fr); } .gaga-shots img { height: 300px; } }
+@media (max-width: 420px) { .gaga-card-grid, .gaga-shots { grid-template-columns: 1fr; } }
