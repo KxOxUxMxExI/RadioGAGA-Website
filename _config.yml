@@ -1,0 +1,8 @@
+title: RadioGAGA
+description: ラジオ番組を録音して、好きな時間に楽しむAndroidアプリ
+url: https://kxoxuxmxexi.github.io
+baseurl: /RadioGAGA-Website
+theme: minima
+lang: ja
+plugins:
+  - jekyll-seo-tag
