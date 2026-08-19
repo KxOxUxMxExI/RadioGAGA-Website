@@ -3,18 +3,26 @@ layout: default
 title: RadioGAGA
 ---
 
-# RadioGAGA
+<div class="gaga-hero">
+<p class="gaga-tag">Radio · Record · Replay</p>
+<h1>RadioGAGA</h1>
+<p>ラジオ番組を探して録音し、好きな時間に楽しむAndroidアプリ。</p>
+</div>
 
-ラジオ番組を探して録音し、好きな時間に楽しめるAndroidアプリです。
+<div class="gaga-card">
+<h2>番組を見つける</h2>
+<p>対応局の番組表から、気になる番組をすぐにチェックできます。</p>
+</div>
 
-## 主な機能
+<div class="gaga-card">
+<h2>録音して楽しむ</h2>
+<p>手動録音や曜日・時間を指定した予約録音に対応。録音した音源はライブラリで管理できます。</p>
+</div>
 
-- ラジオ局の番組表を確認
-- 放送中の番組や過去の番組を録音
-- 曜日・時間を指定した録音予約
-- 録音した番組をライブラリで管理
-- バックグラウンド再生と再生位置の保存
-- Google Driveへのバックアップと復元
+<div class="gaga-card">
+<h2>いつでも聴ける</h2>
+<p>バックグラウンド再生と再生位置の保存に対応。Google Driveへのバックアップと復元も利用できます。</p>
+</div>
 
 ## ページ
 
