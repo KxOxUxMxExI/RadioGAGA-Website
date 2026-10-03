@@ -11,3 +11,5 @@
 - Deployment validation: Pages run 37128083850 succeeded for 33b1252. Live page: all seven image placements load (six unique screenshots), recruitment anchor and FAQ work, no horizontal overflow at 1280 / 390 px. Form remains unconfigured; applications are not open.
 
 - Screenshot alignment: removed the second image's 2rem top padding. All three pairs use matching image dimensions and aligned top/bottom edges; checked in the local preview.
+
+- Motion and feature navigation (codex/lp-motion-benefits): replaces checkmark strip with three icon links; adds one-time scroll reveals, smooth anchor navigation and hover feedback. Reduced-motion settings and missing JavaScript keep content visible. Local browser: feature link reveals target section, tested at 1280 and 320 px without horizontal overflow.

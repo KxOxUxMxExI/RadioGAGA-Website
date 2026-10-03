@@ -24,21 +24,25 @@ description: ラジオの時間を、あなたの時間に。番組を探して�
 </div>
 <figure class="lp-hero-screen"><a href="{{ '/assets/screenshots/20261003/player.png' | relative_url }}" aria-label="プレーヤー画面を拡大する"><img src="{{ '/assets/screenshots/20261003/player.png' | relative_url }}" width="1080" height="2188" alt="RadioGAGAのプレーヤー。再生速度、15秒送り戻し、タイマーを表示" fetchpriority="high"></a><figcaption>聴きかけの続きから、あなたのペースで。</figcaption></figure>
 </section>
-<div class="lp-benefit-strip" aria-label="主な機能"><span>毎週の予約録音</span><span>オフライン再生</span><span>続きから再生</span></div>
+<nav class="lp-benefit-strip" aria-label="主な機能">
+<a href="#recording"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="3"/><path d="M8 3v4m8-4v4M4 11h16m-12 4h3m2 0h3"/></svg><span><strong>毎週の予約録音</strong><small>いつもの番組を、忘れずに。</small></span><span class="lp-benefit-arrow" aria-hidden="true">↗</span></a>
+<a href="#replay"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 16v4h16v-4"/></svg><span><strong>オフライン再生</strong><small>電波を気にせず、持ち歩く。</small></span><span class="lp-benefit-arrow" aria-hidden="true">↗</span></a>
+<a href="#replay"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8a8 8 0 1 1-1 7M5 3v5H1"/><path d="m10 8 6 4-6 4Z"/></svg><span><strong>続きから再生</strong><small>聴きかけの続きへ、すぐに。</small></span><span class="lp-benefit-arrow" aria-hidden="true">↗</span></a>
+</nav>
 <section class="lp-features" aria-label="RadioGAGAの楽しみ方">
-<article class="lp-feature">
+<article id="recording" class="lp-feature" data-reveal>
 <div class="lp-feature-copy"><p class="lp-eyebrow">01 / RECORD</p><h2>毎週の楽しみを、<br>予約録音。</h2><p>番組表から好きな番組を予約。対応する番組を、放送終了後に自動で録音します。</p><p class="lp-small">番組表で探す → 予約する → 録音した番組を聴く</p></div>
 <div class="lp-screen-pair">
 <figure><a href="{{ '/assets/screenshots/20261003/timetable.png' | relative_url }}" aria-label="番組表画面を拡大する"><img src="{{ '/assets/screenshots/20261003/timetable.png' | relative_url }}" width="1080" height="2188" alt="放送予定を確認できる番組表" loading="lazy"></a><figcaption>番組表</figcaption></figure>
 <figure><a href="{{ '/assets/screenshots/20261003/reservations.png' | relative_url }}" aria-label="予約画面を拡大する"><img src="{{ '/assets/screenshots/20261003/reservations.png' | relative_url }}" width="1080" height="2188" alt="毎週の番組と次回の予定を確認できる録音予約" loading="lazy"></a><figcaption>予約録音</figcaption></figure>
 </div></article>
-<article class="lp-feature lp-feature-reverse">
+<article id="replay" class="lp-feature lp-feature-reverse" data-reveal>
 <div class="lp-feature-copy"><p class="lp-eyebrow">02 / REPLAY</p><h2>聴きかけの続きも、<br>あなたのペースで。</h2><p>録音した番組は、通信できない場所でも再生。続きから聴けて、再生速度も変えられます。</p><p class="lp-small">15秒の送り戻し・スリープタイマーにも対応。</p></div>
 <div class="lp-screen-pair">
 <figure><a href="{{ '/assets/screenshots/20261003/library.png' | relative_url }}" aria-label="ライブラリ画面を拡大する"><img src="{{ '/assets/screenshots/20261003/library.png' | relative_url }}" width="1080" height="2188" alt="録音した番組を新着順に並べたライブラリ" loading="lazy"></a><figcaption>ライブラリ</figcaption></figure>
 <figure><a href="{{ '/assets/screenshots/20261003/player.png' | relative_url }}" aria-label="再生画面を拡大する"><img src="{{ '/assets/screenshots/20261003/player.png' | relative_url }}" width="1080" height="2188" alt="再生位置や速度を調整できるプレーヤー" loading="lazy"></a><figcaption>プレーヤー</figcaption></figure>
 </div></article>
-<article class="lp-feature">
+<article class="lp-feature" data-reveal>
 <div class="lp-feature-copy"><p class="lp-eyebrow">03 / DISCOVER</p><h2>いつもの番組も、<br>新しい出会いも。</h2><p>番組名や出演者で検索。今放送中の番組から、そのまま聴き始めることもできます。</p><p class="lp-small">番組表と端末に録音した番組をまとめて検索。</p></div>
 <div class="lp-screen-pair">
 <figure><a href="{{ '/assets/screenshots/20261003/search.png' | relative_url }}" aria-label="検索画面を拡大する"><img src="{{ '/assets/screenshots/20261003/search.png' | relative_url }}" width="1080" height="2188" alt="JUNKの番組検索結果" loading="lazy"></a><figcaption>番組検索</figcaption></figure>
@@ -46,7 +50,7 @@ description: ラジオの時間を、あなたの時間に。番組を探して�
 </div></article>
 <p class="lp-small lp-image-note">画面は2026年10月3日時点の開発版です。画像はタップで拡大できます。</p>
 </section>
-<section id="testing" class="lp-testing" aria-labelledby="testing-title">
+<section id="testing" class="lp-testing" aria-labelledby="testing-title" data-reveal>
 <p class="lp-eyebrow">JOIN THE EARLY TEST</p><h2 id="testing-title">いつものラジオ時間で、<br>試してください。</h2>
 <p>好きな番組を探して、録音して、聴いてみる。<br>使いにくかったところや、うまく動かなかったところを教えてください。<br>あなたの声を、RadioGAGAの改善につなげます。</p>
 <ol class="lp-steps">
