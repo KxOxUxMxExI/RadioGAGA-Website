@@ -12,16 +12,14 @@ title: RadioGAGA
 
 <h2>RadioGAGAでできること</h2>
 <div class="gaga-features" aria-label="RadioGAGAの機能紹介">
-<article class="gaga-feature"><img src="https://raw.githubusercontent.com/KxOxUxMxExI/RadioGAGA-Website/main/Screenshot_20260819-121045.png" alt="番組表画面" /><div><p class="gaga-feature-number">01 / 番組表</p><h3>気になる番組を見つける</h3><p>radiko・NHKの対応局の番組表から、放送予定や過去の番組をチェック。配信中のタイムフリー・聴き逃し番組を端末に保存できます。</p></div></article>
-<article class="gaga-feature"><img src="https://raw.githubusercontent.com/KxOxUxMxExI/RadioGAGA-Website/main/Screenshot_20260819-121031.png" alt="ライブラリ画面" /><div><p class="gaga-feature-number">02 / ライブラリ</p><h3>録音した番組を楽しむ</h3><p>録音した音源をライブラリで管理。バックグラウンド再生と再生位置の保存にも対応しています。</p></div></article>
-<article class="gaga-feature"><img src="https://raw.githubusercontent.com/KxOxUxMxExI/RadioGAGA-Website/main/Screenshot_20260819-121057.png" alt="録音予約画面" /><div><p class="gaga-feature-number">03 / 録音予約</p><h3>好きな番組を予約する</h3><p>番組表から予約を登録。対応する番組は、放送終了後に配信音源を自動で端末へ保存します。</p></div></article>
+<article class="gaga-feature"><img src="{{ '/assets/screenshots/20261003/timetable.png' | relative_url }}" width="1080" height="2188" alt="番組表で放送予定と放送中の番組を確認する画面" /><div><p class="gaga-feature-number">01 / 番組表</p><h3>気になる番組を見つける</h3><p>対応局の番組表から、放送予定や過去の番組をチェック。配信中のタイムフリー・聴き逃し番組を端末に保存できます。</p></div></article>
+<article class="gaga-feature"><img src="{{ '/assets/screenshots/20261003/search.png' | relative_url }}" width="1080" height="2188" alt="JUNKを検索し、番組表の結果を表示している画面" /><div><p class="gaga-feature-number">02 / 検索</p><h3>番組名・出演者で探す</h3><p>番組表と端末に保存した番組をまとめて検索。番組名や出演者で探して、検索結果を絞り込めます。</p></div></article>
+<article class="gaga-feature"><img src="{{ '/assets/screenshots/20261003/library.png' | relative_url }}" width="1080" height="2188" alt="保存した番組を新着順に並べたライブラリ画面" /><div><p class="gaga-feature-number">03 / 保存</p><h3>保存した番組を持ち歩く</h3><p>端末に保存した番組をライブラリで管理。通信できない場所でも、お気に入りの番組を楽しめます。</p></div></article>
+<article class="gaga-feature"><img src="{{ '/assets/screenshots/20261003/player.png' | relative_url }}" width="1080" height="2188" alt="東京ポッド許可局の再生画面。再生速度、15秒送り戻し、タイマーを表示" loading="lazy" /><div><p class="gaga-feature-number">04 / プレーヤー</p><h3>続きから、好きな速さで</h3><p>再生位置を保存して、次も続きから。再生速度の変更、15秒の送り戻し、スリープタイマーにも対応しています。</p></div></article>
+<article class="gaga-feature"><img src="{{ '/assets/screenshots/20261003/reservations.png' | relative_url }}" width="1080" height="2188" alt="毎週の番組と次回の予定を確認できる録音予約画面" loading="lazy" /><div><p class="gaga-feature-number">05 / 予約</p><h3>毎週の番組を取り逃さない</h3><p>番組表から予約を登録。対応する番組は、放送終了後に配信音源を自動で端末へ保存します。</p></div></article>
+<article class="gaga-feature"><img src="{{ '/assets/screenshots/20261003/on-air.png' | relative_url }}" width="1080" height="2188" alt="各局で今放送している番組を一覧で確認する画面" loading="lazy" /><div><p class="gaga-feature-number">06 / 放送中</p><h3>今、聴きたいラジオへ</h3><p>各局で放送中の番組を一覧でチェック。気になる番組を選んで、そのまま聴き始められます。</p></div></article>
 </div>
-<p>画面は開発中のものです。現在のアプリとは表示が異なる場合があります。</p>
-
-<div class="gaga-card-grid">
-<div class="gaga-card"><h2>まとめて検索</h2><p>番組名や出演者などで、番組表・端末に保存した番組・クラウド上の番組を横断して探せます。</p></div>
-<div class="gaga-card"><h2>オフラインで聴く</h2><p>端末に保存した番組は、通信できない場所でも再生できます。移動中や作業中にも、好きな番組を続きから。</p></div>
-</div>
+<p>画面は2026年10月3日時点の開発版です。掲載画像では上下の端末表示を省略しています。</p>
 
 <h2 id="testing">テスト参加について</h2>
 <p>現在、テスター募集に向けて準備しています。受付を開始したら、このページに登録フォームと参加手順を掲載します。</p>
