@@ -1,5 +1,7 @@
 title: RadioGAGA
-description: ラジオ番組を探して保存し、好きな時間に楽しむAndroidアプリ。番組表、録音予約、横断検索、オフライン再生に対応。
+description: ラジオの時間を、あなたの時間に。番組を探して、予約して、端末に録音。AndroidアプリRadioGAGA。
+# Set the registration form URL here when tester applications open.
+tester_form_url: ""
 url: https://kxoxuxmxexi.github.io
 baseurl: /RadioGAGA-Website
 theme: minima
