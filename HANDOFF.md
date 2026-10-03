@@ -8,4 +8,4 @@
 - When registration opens, set `tester_form_url` to the actual form URL. This switches the main buttons and recruitment status. Confirm fees, eligibility, onboarding and feedback instructions before opening applications.
 - Local preview checks: 320 / 768 / 1024 / 1440 px, no horizontal overflow; participation anchor and FAQ expansion work. Screenshots link to the original cropped PNGs for enlargement.
 - No Android code or device data changed.
-- Deployment validation: GitHub Pages build and live home-page checks are required after push.
+- Deployment validation: Pages run 37128083850 succeeded for 33b1252. Live page: all seven image placements load (six unique screenshots), recruitment anchor and FAQ work, no horizontal overflow at 1280 / 390 px. Form remains unconfigured; applications are not open.
