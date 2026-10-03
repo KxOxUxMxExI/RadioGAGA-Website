@@ -9,3 +9,5 @@
 - Local preview checks: 320 / 768 / 1024 / 1440 px, no horizontal overflow; participation anchor and FAQ expansion work. Screenshots link to the original cropped PNGs for enlargement.
 - No Android code or device data changed.
 - Deployment validation: Pages run 37128083850 succeeded for 33b1252. Live page: all seven image placements load (six unique screenshots), recruitment anchor and FAQ work, no horizontal overflow at 1280 / 390 px. Form remains unconfigured; applications are not open.
+
+- Screenshot alignment: removed the second image's 2rem top padding. All three pairs use matching image dimensions and aligned top/bottom edges; checked in the local preview.
