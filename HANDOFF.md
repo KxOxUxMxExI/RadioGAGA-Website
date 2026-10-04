@@ -12,8 +12,10 @@
 - Google project deployed source (saved and functions recognized): https://script.google.com/u/1/home/projects/1FPzjNQAmK-kyfOiMkAlARH_xvCy8PlPefJ_NWx_WNPCCInmh-w2VkqXh/edit ; title RadioGAGA テスター案内. Kome authorization completed; setup execution successful, two triggers verified. Operator form submit triggered onRegistration, completed in 3.131s (2026-10-04 10:09:37 JST); Receipt received in Kome Gmail; From/Reply-To koumelabs@gmail.com and display name RadioGAGA / Kome Labs verified, correct group link and distribution-pending copy. A personal-account empty Apps Script project was also created while switching accounts; no code/trigger there, left intact.
 - `_backend/README.md` has operational instructions. Source/tests under underscore directory are excluded from Jekyll public assets. Only templates and public IDs in Git; no response data or credentials.
 - Local test: node _backend/backend.test.cjs PASS (sender, consent, malformed input, deduplication, release gate, mute, quota, uncertain send). Google setup and form-submit trigger execution passed; operator receipt received and sender/body verified.
-- LP config connects published form; copy clearly says distribution preparation. Privacy policy adds tester registration purpose, services and contact/opt-out. Deployment pending.
+- LP config connects published form; copy clearly says distribution preparation. Privacy policy adds tester registration purpose, services and contact/opt-out. Pages deployment 37167247300 succeeded for 91db43a. Live: all three signup buttons point to the public form, recruiting/pending-distribution copy verified, no horizontal overflow at current desktop viewport.
 - No Android code, device or user data changed.
-- Next: publish/verify LP; then complete closed-test release before enabling install notices.
+- Next: complete store listing/country selection and closed-test release before enabling install notices.
 
 - Narrow independent read-only review (gpt-5.6-luna / low) found no contract violation; held uncertain-send state is intentional and documented. Main agent reviewed tests, quota/sender/consent/gate paths and LP diffs.
+
+- Google runtime duplicate check: manually reran processPending (10:12:02–10:12:05 JST), completed; Gmail refreshed and still one receipt message. Operator test record/mail retained, no user registration data deleted.
