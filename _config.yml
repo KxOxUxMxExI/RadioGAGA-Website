@@ -1,7 +1,7 @@
 title: RadioGAGA
 description: ラジオの時間を、あなたの時間に。番組を探して、予約して、端末に録音。AndroidアプリRadioGAGA。
 # Set the registration form URL here when tester applications open.
-tester_form_url: ""
+tester_form_url: "https://docs.google.com/forms/d/e/1FAIpQLSfn0kD7TCHvduNACgLVEte65YFidq-AgtMtg2TS8UiEyHt9NA/viewform"
 url: https://kxoxuxmxexi.github.io
 baseurl: /RadioGAGA-Website
 theme: minima

@@ -1,15 +1,19 @@
-# LP handoff — 2026-10-03
+# LP / tester onboarding handoff — 2026-10-04
 
-- Scope: tester recruitment landing page, branch `codex/lp-tester-recruitment`.
-- Approved copy: ラジオの時間を、あなたの時間に。 / いつでも、どこでも、好きなときに、続きから。
-- Reuses all six cropped screenshots. Player also appears in the hero. Original images are unchanged.
-- Dedicated `landing` layout applies to the home page. Other pages retain the default theme layout.
-- Registration form is not created yet (confirmed by user). `tester_form_url` in `_config.yml` stays empty; copy says registration is being prepared and links to `#testing`.
-- When registration opens, set `tester_form_url` to the actual form URL. This switches the main buttons and recruitment status. Confirm fees, eligibility, onboarding and feedback instructions before opening applications.
-- Local preview checks: 320 / 768 / 1024 / 1440 px, no horizontal overflow; participation anchor and FAQ expansion work. Screenshots link to the original cropped PNGs for enlargement.
-- No Android code or device data changed.
-- Deployment validation: Pages run 37128083850 succeeded for 33b1252. Live page: all seven image placements load (six unique screenshots), recruitment anchor and FAQ work, no horizontal overflow at 1280 / 390 px. Form remains unconfigured; applications are not open.
+- Scope: tester registration and mail onboarding; branch `codex/tester-onboarding`.
+- LP retains approved copy and six cropped images, matched image heights and accessible motion from previous releases (main f43bd3b).
+- Form published: https://docs.google.com/forms/d/e/1FAIpQLSfn0kD7TCHvduNACgLVEte65YFidq-AgtMtg2TS8UiEyHt9NA/viewform
+- Form owner personal account, Kome Labs editor. Public page verified: required Play email with validation, optional device, required consent, Submit enabled. One clearly labelled operator test response submitted (Kome Labs); submit confirmation verified.
+- Response Sheet: https://docs.google.com/spreadsheets/d/1AFlPsxl1XW81YgdmUaFEAAk0SJxx5S8Nhh1rv9n8BMY/edit ; Kome access not checked; backend reads Form directly.
+- Group created as Kome Labs: radiogaga-testers@googlegroups.com. Public join button verified using a non-member account. Anyone can join; posting and member list restricted to owner; conversation viewing members only. Owner is the only current member.
+- Play Console developer 8765225444809445453, app 4973507170012214823. Alpha track 4698242882166252585 now uses this group and feedback koumelabs@gmail.com; saved state verified after reload. No Alpha release; opt-in links disabled. Existing internal tester list (1 member) unchanged, internal release 12 / 0.1.11.
+- Group access is supported for closed tests, not current internal test UI. Remaining distribution work: country selection, store listing completion, Alpha release and review. No release submitted.
+- `_backend/Code.gs`: Form-bound Apps Script source, sender guard for koumelabs@gmail.com, receipt with group instructions, install/update notice gated by explicit published-release properties, individual mail, normalized deduplication, consent check, quota batches, held uncertain delivery, manual opt-out. No auto Play release detection.
+- Google project deployed source (saved and functions recognized): https://script.google.com/u/1/home/projects/1FPzjNQAmK-kyfOiMkAlARH_xvCy8PlPefJ_NWx_WNPCCInmh-w2VkqXh/edit ; title RadioGAGA テスター案内. Kome authorization completed; setup execution successful, two triggers verified. Operator form submit triggered onRegistration, completed in 3.131s (2026-10-04 10:09:37 JST); Receipt received in Kome Gmail; From/Reply-To koumelabs@gmail.com and display name RadioGAGA / Kome Labs verified, correct group link and distribution-pending copy. A personal-account empty Apps Script project was also created while switching accounts; no code/trigger there, left intact.
+- `_backend/README.md` has operational instructions. Source/tests under underscore directory are excluded from Jekyll public assets. Only templates and public IDs in Git; no response data or credentials.
+- Local test: node _backend/backend.test.cjs PASS (sender, consent, malformed input, deduplication, release gate, mute, quota, uncertain send). Google setup and form-submit trigger execution passed; operator receipt received and sender/body verified.
+- LP config connects published form; copy clearly says distribution preparation. Privacy policy adds tester registration purpose, services and contact/opt-out. Deployment pending.
+- No Android code, device or user data changed.
+- Next: publish/verify LP; then complete closed-test release before enabling install notices.
 
-- Screenshot alignment: removed the second image's 2rem top padding. All three pairs use matching image dimensions and aligned top/bottom edges; checked in the local preview.
-
-- Motion and feature navigation (codex/lp-motion-benefits): replaces checkmark strip with three icon links; adds one-time scroll reveals, smooth anchor navigation and hover feedback. Reduced-motion settings and missing JavaScript keep content visible. Local browser: feature link reveals target section, tested at 1280 and 320 px without horizontal overflow.
+- Narrow independent read-only review (gpt-5.6-luna / low) found no contract violation; held uncertain-send state is intentional and documented. Main agent reviewed tests, quota/sender/consent/gate paths and LP diffs.

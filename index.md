@@ -55,11 +55,11 @@ description: ラジオの時間を、あなたの時間に。番組を探して�
 <p>好きな番組を探して、録音して、聴いてみる。<br>使いにくかったところや、うまく動かなかったところを教えてください。<br>あなたの声を、RadioGAGAの改善につなげます。</p>
 <ol class="lp-steps">
 <li><span class="lp-step-number" aria-hidden="true">01</span><h3>申し込む</h3><p>Google Playで使っているメールアドレスを登録。</p></li>
-<li><span class="lp-step-number" aria-hidden="true">02</span><h3>インストールする</h3><p>参加案内に沿って、テスト版のアプリをインストール。</p></li>
+<li><span class="lp-step-number" aria-hidden="true">02</span><h3>参加して、インストール</h3><p>案内メールからGoogleグループへ参加。配信開始後、Google Playからインストール。</p></li>
 <li><span class="lp-step-number" aria-hidden="true">03</span><h3>使ってみる</h3><p>いつもの番組で試して、気づいたことをフィードバック。</p></li>
 </ol>
 {% if form_url != '' %}
-<a class="lp-button" href="{{ form_url | escape }}">テスターに申し込む <span aria-hidden="true">→</span></a><p class="lp-small">Google Playで使っているGoogleアカウントをご用意ください。</p>
+<a class="lp-button" href="{{ form_url | escape }}">テスターに申し込む <span aria-hidden="true">→</span></a><p class="lp-small">先行登録を受け付けています。アプリの配信は準備中です。インストール手順は、準備が整い次第メールでご案内します。</p>
 {% else %}
 <div class="lp-pending"><strong>ただいま参加受付を準備しています。</strong><p>受付開始後、このページに申込みフォームと参加案内を掲載します。</p></div>
 {% endif %}
@@ -69,7 +69,7 @@ description: ラジオの時間を、あなたの時間に。番組を探して�
 <details><summary>どの端末で使えますか？</summary><p>Android 8.0以降の端末に対応しています。テスト参加には、端末のGoogle Playで使っているGoogleアカウントが必要です。</p></details>
 <details><summary>どの番組を聴いたり、録音したりできますか？</summary><p>取得できる番組は、対応する放送局や配信期間によって異なります。すべての番組を録音できるわけではありません。番組情報・音源の取得にはインターネット接続が必要です。</p></details>
 <details><summary>通信できない場所でも聴けますか？</summary><p>端末に録音済みの番組は、オフラインで再生できます。</p></details>
-<details><summary>料金や広告について教えてください。</summary><p>アプリ内には広告があります。テスト参加に関する費用や利用条件は、受付開始時の参加案内でお知らせします。</p></details>
-<details><summary>不具合や感想は、どこに送ればいいですか？</summary><p>現在は<a href="https://github.com/KxOxUxMxExI/RadioGAGA-Website/issues">GitHubの問い合わせ窓口</a>をご利用いただけます。テスト参加時のフィードバック方法は、参加案内に掲載します。</p></details>
+<details><summary>料金や広告について教えてください。</summary><p>アプリ内には広告があります。テスト版の利用条件は、インストールの参加案内でお知らせします。</p></details>
+<details><summary>不具合や感想は、どこに送ればいいですか？</summary><p><a href="mailto:koumelabs@gmail.com">Kome Labsへのメール</a>、または<a href="https://github.com/KxOxUxMxExI/RadioGAGA-Website/issues">GitHubの問い合わせ窓口</a>からお知らせください。配信停止や登録情報の訂正もメールで受け付けます。</p></details>
 </section>
 <section class="lp-closing" aria-label="テスト参加案内"><h2>あなたのラジオ時間を、<br>RadioGAGAで。</h2><a class="lp-button" href="{{ join_url | escape }}">{{ join_label }} <span aria-hidden="true">→</span></a><p class="lp-small">{% if form_url != '' %}Android版 先行テスター募集中{% else %}Android版 先行テスター受付準備中{% endif %}</p></section>
